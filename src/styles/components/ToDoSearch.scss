@@ -1,0 +1,18 @@
+.searcher_container{
+    width: 100%;
+    margin: auto;
+
+    .searcher{
+        width: calc(100% - 60px);
+        height: 48px;
+        border: solid 1px black;
+        border-radius: 2px;
+        text-align: center;
+    }
+    ::placeholder{
+        font-size: 24px;
+    }
+    :focus{
+        outline-color: $color_blue;
+    }
+}

@@ -1,0 +1,29 @@
+body{
+    margin:0;box-sizing: 
+    border-box; 
+    font-family: 'Open Sans', sans-serif;  
+}
+
+#root{
+    position: relative
+}
+
+.icon{
+    font-size: 20px;
+    margin: 0 10px;
+}
+
+//UI Settings       
+@import "./base/settings";
+
+//Components
+@import "./components/CreateToDo";
+@import "./components/ToDoCounter";
+@import "./components/ToDoItem" ;
+@import "./components/ToDoList";
+@import "./components/ToDoSearch";
+
+//Pages
+@import "./pages/Main";
+
+//Default
